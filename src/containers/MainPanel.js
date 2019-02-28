@@ -64,7 +64,8 @@ class MainPanel extends Component {
                     level='1'
                     size="xl"
                     onClick={this.authorize.bind(this)}
-                >Авторизоваться</UI.Button>
+                >Авторизоваться </UI.Button>
+                <div>привет user!</div>
             </UI.Div>);
         }
 
